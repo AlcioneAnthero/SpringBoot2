@@ -1,4 +1,4 @@
-package com.geral.demo;
+package com.servicoapi1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

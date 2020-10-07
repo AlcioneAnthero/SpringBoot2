@@ -1,5 +1,4 @@
-package com.geral.demo;
-
+package com.servicoapi1;
 
 import java.util.Date;
 
@@ -12,7 +11,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-@Entity 
+@Entity
 @Table
 public class ServicoModel {
 
@@ -25,7 +24,7 @@ public class ServicoModel {
 	private String nome;
 	
 	@Column
-	@JsonFormat(pattern="yyyy-mm-dd")
+	@JsonFormat(pattern="yyyy-MM-dd")
 	private Date data;
 
 	public Long getId() {
@@ -51,6 +50,7 @@ public class ServicoModel {
 	public void setData(Date data) {
 		this.data = data;
 	}
+		
 	
 	
 }
